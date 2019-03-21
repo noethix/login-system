@@ -1,0 +1,46 @@
+@import "https://fonts.googleapis.com/css?family=Raleway" ;
+
+body {
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(250, 253, 255);
+}
+
+thead {
+    background-color: rgb(201, 214, 223);
+}
+
+tfoot {
+    background-color: rgb(201, 214, 223);
+}
+
+h1 {
+    text-align: center;
+    padding: 40px 0 0 0;
+}
+#example_wrapper {
+    width: 85%;
+    padding: 50px 0;
+    align-self: center;
+}
+
+.row {
+    padding:40px 0 10px 0;
+}
+
+thead {
+    text-align: center;
+}
+
+tfoot {
+    text-align: center;
+}
+
+.page-item.active .page-link {
+    color: rgb(82, 82, 82);
+    background-color: aliceblue;
+    border-color: rgb(202, 230, 255);
+}

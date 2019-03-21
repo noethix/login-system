@@ -1,0 +1,15 @@
+body {
+   display: flex; 
+   flex-direction: column;
+   align-items: center;
+}   
+    h1 {
+    padding: 150px;
+    text-align: center;
+    flex-direction: column;
+}
+
+form { 
+    
+    width: 25%; 
+}
